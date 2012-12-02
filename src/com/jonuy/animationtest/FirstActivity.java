@@ -31,6 +31,7 @@ public class FirstActivity extends Activity implements OnClickListener {
 	private Button btnDecelerate;
 	private Button btnSlideUp;
 	private Button btnSlideDown;
+	private Button btnFade;
 	
 	private int animatingBtnId;
 	private int animatingInTransition;
@@ -53,6 +54,7 @@ public class FirstActivity extends Activity implements OnClickListener {
 		btnDecelerate = (Button)findViewById(R.id.btnDecelerate);
 		btnSlideUp = (Button)findViewById(R.id.btnSlideUp);
 		btnSlideDown = (Button)findViewById(R.id.btnSlideDown);
+		btnFade = (Button)findViewById(R.id.btnFade);
 		
 		btnNormal.setOnClickListener(this);
 		btnLinear.setOnClickListener(this);
@@ -66,6 +68,7 @@ public class FirstActivity extends Activity implements OnClickListener {
 		btnDecelerate.setOnClickListener(this);
 		btnSlideUp.setOnClickListener(this);
 		btnSlideDown.setOnClickListener(this);
+		btnFade.setOnClickListener(this);
 	}
 	
 	private void goNext() {
@@ -140,6 +143,9 @@ public class FirstActivity extends Activity implements OnClickListener {
 			animatingInTransition = R.anim.slide_in_down;
 			animatingOutTransition = R.anim.slide_out_down;
 			break;
+		case R.id.btnFade:
+			animatingInTransition = R.anim.page_fade_in;
+			animatingOutTransition = R.anim.page_fade_out;
 		}
 		
 		animatingBtnId = v.getId();

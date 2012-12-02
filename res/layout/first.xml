@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     
 	<LinearLayout
 	    android:layout_width="match_parent"
@@ -18,62 +18,67 @@
 	    <Button
 	        android:id="@+id/btnNormal"
 	        android:text="Normal"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnLinear"
 	        android:text="Linear"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnOvershoot"
 	        android:text="Overshoot"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnAccelerateDecelerate"
 	        android:text="Accelerate Decelerate"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnAccelerate"
 	        android:text="Accelerate"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnAnticipate"
 	        android:text="Anticipate"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnAnticipateOvershoot"
 	        android:text="Anticipate Overshoot"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnBounce"
 	        android:text="Bounce"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnCycle"
 	        android:text="Cycle"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnDecelerate"
 	        android:text="Decelerate"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnSlideUp"
 	        android:text="Slide Up"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    <Button
 	        android:id="@+id/btnSlideDown"
 	        android:text="Slide Down"
-	        android:layout_width="fill_parent"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    <Button
+	        android:id="@+id/btnFade"
+	        android:text="Fade"
+	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" />
 	    
 	</LinearLayout>

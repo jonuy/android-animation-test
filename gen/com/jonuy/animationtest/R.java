@@ -11,32 +11,34 @@ public final class R {
     public static final class anim {
         public static final int fade_out=0x7f040000;
         public static final int grow_spin=0x7f040001;
-        public static final int slide_in_down=0x7f040002;
-        public static final int slide_in_left=0x7f040003;
-        public static final int slide_in_left_accelerate=0x7f040004;
-        public static final int slide_in_left_accelerate_decelerate=0x7f040005;
-        public static final int slide_in_left_anticipate=0x7f040006;
-        public static final int slide_in_left_anticipate_overshoot=0x7f040007;
-        public static final int slide_in_left_bounce=0x7f040008;
-        public static final int slide_in_left_cycle=0x7f040009;
-        public static final int slide_in_left_decelerate=0x7f04000a;
-        public static final int slide_in_left_linear=0x7f04000b;
-        public static final int slide_in_left_overshoot=0x7f04000c;
-        public static final int slide_in_right=0x7f04000d;
-        public static final int slide_in_up=0x7f04000e;
-        public static final int slide_out_down=0x7f04000f;
-        public static final int slide_out_left=0x7f040010;
-        public static final int slide_out_left_accelerate=0x7f040011;
-        public static final int slide_out_left_accelerate_decelerate=0x7f040012;
-        public static final int slide_out_left_anticipate=0x7f040013;
-        public static final int slide_out_left_anticipate_overshoot=0x7f040014;
-        public static final int slide_out_left_bounce=0x7f040015;
-        public static final int slide_out_left_cycle=0x7f040016;
-        public static final int slide_out_left_decelerate=0x7f040017;
-        public static final int slide_out_left_linear=0x7f040018;
-        public static final int slide_out_left_overshoot=0x7f040019;
-        public static final int slide_out_right=0x7f04001a;
-        public static final int slide_out_up=0x7f04001b;
+        public static final int page_fade_in=0x7f040002;
+        public static final int page_fade_out=0x7f040003;
+        public static final int slide_in_down=0x7f040004;
+        public static final int slide_in_left=0x7f040005;
+        public static final int slide_in_left_accelerate=0x7f040006;
+        public static final int slide_in_left_accelerate_decelerate=0x7f040007;
+        public static final int slide_in_left_anticipate=0x7f040008;
+        public static final int slide_in_left_anticipate_overshoot=0x7f040009;
+        public static final int slide_in_left_bounce=0x7f04000a;
+        public static final int slide_in_left_cycle=0x7f04000b;
+        public static final int slide_in_left_decelerate=0x7f04000c;
+        public static final int slide_in_left_linear=0x7f04000d;
+        public static final int slide_in_left_overshoot=0x7f04000e;
+        public static final int slide_in_right=0x7f04000f;
+        public static final int slide_in_up=0x7f040010;
+        public static final int slide_out_down=0x7f040011;
+        public static final int slide_out_left=0x7f040012;
+        public static final int slide_out_left_accelerate=0x7f040013;
+        public static final int slide_out_left_accelerate_decelerate=0x7f040014;
+        public static final int slide_out_left_anticipate=0x7f040015;
+        public static final int slide_out_left_anticipate_overshoot=0x7f040016;
+        public static final int slide_out_left_bounce=0x7f040017;
+        public static final int slide_out_left_cycle=0x7f040018;
+        public static final int slide_out_left_decelerate=0x7f040019;
+        public static final int slide_out_left_linear=0x7f04001a;
+        public static final int slide_out_left_overshoot=0x7f04001b;
+        public static final int slide_out_right=0x7f04001c;
+        public static final int slide_out_up=0x7f04001d;
     }
     public static final class attr {
     }
@@ -44,7 +46,7 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int BackButton=0x7f08000c;
+        public static final int BackButton=0x7f08000d;
         public static final int btnAccelerate=0x7f080004;
         public static final int btnAccelerateDecelerate=0x7f080003;
         public static final int btnAnticipate=0x7f080005;
@@ -52,12 +54,13 @@ public final class R {
         public static final int btnBounce=0x7f080007;
         public static final int btnCycle=0x7f080008;
         public static final int btnDecelerate=0x7f080009;
+        public static final int btnFade=0x7f08000c;
         public static final int btnLinear=0x7f080001;
         public static final int btnNormal=0x7f080000;
         public static final int btnOvershoot=0x7f080002;
         public static final int btnSlideDown=0x7f08000b;
         public static final int btnSlideUp=0x7f08000a;
-        public static final int menu_settings=0x7f08000d;
+        public static final int menu_settings=0x7f08000e;
     }
     public static final class layout {
         public static final int first=0x7f030000;
